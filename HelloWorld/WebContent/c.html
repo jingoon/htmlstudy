@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>로그인 페이지</h1>	<!-- h1~h6 -->
+<h3>부제목</h3>
+
+<input placeholder="ID를 입력하세요.">		<!--  의미없는 텍스트상자 -->
+
+<br>
+
+<form action="b.html" method="get"> 		<!-- 버튼을 눌렀을 때 이동하는 주소 , 입력값을 가지고 페이징-->
+											<!-- get이 디폴트. 생략돼어있다. -->
+
+	<input name="id" placeholder="아이디를 입력하세요">	<!-- placefolder="입력창 흰트" -->
+	<br>
+	<input name="pw">	
+	<br>
+	<input type="submit" value="로그인"> <!-- 버튼 -->
+
+</form>
+
+<form action="b.html" method="post">
+	<input name="id">
+	<br>
+	<input type="password" name="pw">
+	<br>
+	<input type="submit" value="로그인">
+</form>
+
+</body>
+</html>
